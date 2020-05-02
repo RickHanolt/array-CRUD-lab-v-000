@@ -31,6 +31,6 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  array[-1]
+  array.last
   #array[-1] would also work as -1 is the index used to access the last item in an array.
 end
